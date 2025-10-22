@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation_DWWM</title>
+</head>
+<body>
+        <img src="logo.jpeg">
+    <ul>
+        <li><a href="accueil.html"> Accueil</a></li></li>
+        <li><a href="la_formation.html"> La formation</a></li>
+        <li><a href="témoignage.html">ILs témoignent</a></li>
+        <li><a href="Nos références"> Nos références</a></li>
+        <li><a href="nous contacter"> Nous contacter</a></li>
+    </ul>
+    <h1>Contactez-nous</h1>
+    <form action="/envoyez-contact" method="post">
+        <label for="rénom nom">Prénom nom</label> <input type="text" id="Prénom nom" name="Prénom nom"><br>
+        <label for="adresse mail">Votre adresse mail</label> <input type="text" id="adresse mail" name="adresse mail"><br> 
+        <label for="téléphone">Votre téléphone</label><input type="etxt" id="téléphone" name="téléphone">
+        <p>Vous êtes</p>
+        <input type="radio" id="situations" name="situation">
+        <label for="situations">Demandeurs d'emploi</label><br>
+        <input type="radio" id="situations" name="situation">
+        <label for="situations">Salarié en transition pro</label><br>
+        <input type="radio" id="situations" name="situation">
+        <label for="situation">Autre</label>
+        <p>Vos modalités pédagogiques préférés</p>
+        <input type="radio" id="modalités" name="modalités">
+        <label for="modalités">Formation en presentiel</label><br>
+        <input type="radio" id="modalités" name="modalités">
+        <label for="modalités">100 % Distance</label><br>
+        <input type="radio" id="modalités" name="modalités">
+        <label for="modalités">Alternance</label><br>
+        <input type="radio" id="modalités" name="modalités">
+        <label for="modalités">Pas de préférence</label><br>
+        <label for="région">Vous êtes résident de la région</label>
+        <select id="région" name="région">
+            <option value="1">Choisissez votre région</option>
+            <option value="2">région </option>
+            <option value="3">région</option>
+        </select><br>
+        <label for="votre message">Votre message</label><textarea id="votre message" name="votre de message" rows="10" cols="20" placeholder="votre message"></textarea><br>
+        <button>Envoyer</button>
+       </form>
+</body>
+</html
