@@ -1,1 +1,1 @@
-TP découverte autour du langage HTML dans le cadre de la formation DIGITAL EXPLORER 
+Durant ce TP j'ai pu m'exercer sur les bases d'html.
